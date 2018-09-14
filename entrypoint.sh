@@ -65,7 +65,7 @@ if ! grep '^api_key.*=[ ]*[[:alnum:]].*' ${agent_conf_file} > /dev/null 2>&1; th
 fi
 
 echo "starting amplify-agent ..."
-service amplify-agent start > /dev/null 2>&1 < /dev/null
+python /usr/bin/nginx-amplify-agent.py start --config=/etc/amplify-agent/agent.conf --pid=/var/run/amplify-agent/amplify-agent.pid
 
 if [ $? != 0 ]; then
     echo "couldn't start the agent, please check ${agent_log_file}"

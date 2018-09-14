@@ -1,7 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-
 - [1. Overview](#1-overview)
   - [1.1. NGINX Amplify Agent Inside Docker Container](#11-nginx-amplify-agent-inside-docker-container)
   - [1.2. Standalone Mode](#12-standalone-mode)
@@ -10,8 +6,6 @@
 - [2. How to Build and Run an Amplify-enabled NGINX image?](#2-how-to-build-and-run-an-amplify-enabled-nginx-image)
   - [2.1. Building an Amplify-enabled image with NGINX](#21-building-an-amplify-enabled-image-with-nginx)
   - [2.2. Running an Amplify-enabled NGINX Docker Container](#22-running-an-amplify-enabled-nginx-docker-container)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
 ## 1. Overview
